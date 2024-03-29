@@ -63,7 +63,7 @@ pub struct SpinnerBuilder {
     prefix: Option<Str>,
 }
 
-impl<'a> SpinnerBuilder {
+impl SpinnerBuilder {
     /// Creates a new builder.
     pub fn new() -> Self {
         Self::default()
